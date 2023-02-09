@@ -1,0 +1,83 @@
+:root {
+    background-color: rgb(0, 0, 27);
+}
+
+* {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: monospace;
+}
+
+header, footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+}
+
+header {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.timer {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 500px;
+    min-width: fit-content;
+}
+
+.timer > div {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    border-radius: 10px;
+    width: 85px;
+}
+
+.petition {
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 15px
+}
+
+.petition > * {
+    margin: 10px;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+footer {
+    padding: 10
+}
