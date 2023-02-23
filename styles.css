@@ -81,3 +81,7 @@ button:active {
 footer {
     padding: 10
 }
+
+a:hover {
+    font-weight: bold;
+}
